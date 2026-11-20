@@ -1,0 +1,8 @@
+Finding: Exposed phpMyAdmin Database Administration Interface
+Target: 192.168.77.20
+Port: 80/TCP
+Affected path: /phpMyAdmin/
+Evidence: HTTP 200 response; phpMyAdmin interface and username/password login form are accessible.
+Impact: Exposes a database administration interface to network users, increasing the attack surface and risk of unauthorized access if authentication or software security is weak.
+Severity: Informational-Low (exposure confirmed; compromise not demonstrated).
+Recommendation: Restrict access to trusted IPs or administrators, keep phpMyAdmin updated, and enforce strong authentication.

@@ -1,0 +1,13 @@
+Finding: PHP Information Disclosure
+Target: 192.168.77.20
+Port: 80/TCP
+Affected path: /phpinfo.php
+PHP Version: 5.2.4-2ubuntu5.10
+Operating System: Linux metasploitable 2.6.24-16-server
+Server API: CGI/FastCGI
+Configuration File: /etc/php5/cgi/php.ini
+Document Root: /var/www/
+Evidence: phpinfo.php publicly accessible and exposes server and PHP configuration details.
+Impact: Information disclosure assists attackers in identifying software versions, configuration paths, and attack surface.
+Severity: Low-Medium
+Recommendation: Remove phpinfo.php from production servers or restrict access to authorized administrators.

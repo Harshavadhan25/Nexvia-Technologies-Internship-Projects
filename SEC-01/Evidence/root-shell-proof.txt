@@ -1,0 +1,15 @@
+Finding: Unauthenticated Root Shell
+Target: 192.168.77.20
+Port: 1524/TCP
+Service: Bind Shell
+Authentication: None required
+Verification:
+Command: whoami
+Output: root
+
+Command: id
+Output: uid=0(root) gid=0(root) groups=0(root)
+
+Impact: Remote unauthenticated access with full root privileges.
+Severity: Critical
+Recommendation: Disable the exposed bind shell, remove unauthorized services, and rebuild the host securely.

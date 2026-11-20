@@ -1,0 +1,20 @@
+# Nmap 7.99 scan initiated Tue Nov 17 02:39:24 2026 as: /usr/lib/nmap/nmap -p512,513,514,1099,1524,2121,3306,5432,5900,6667 -sV -oN /home/kali/SEC-01/evidence/secondary-services.txt 192.168.77.20
+Nmap scan report for 192.168.77.20
+Host is up (0.0075s latency).
+
+PORT     STATE SERVICE    VERSION
+512/tcp  open  exec       netkit-rsh rexecd
+513/tcp  open  login      OpenBSD or Solaris rlogind
+514/tcp  open  shell      Netkit rshd
+1099/tcp open  java-rmi   GNU Classpath grmiregistry
+1524/tcp open  bindshell  Metasploitable root shell
+2121/tcp open  ftp        ProFTPD 1.3.1
+3306/tcp open  mysql      MySQL 5.0.51a-3ubuntu5
+5432/tcp open  postgresql PostgreSQL DB 8.3.0 - 8.3.7
+5900/tcp open  vnc        VNC (protocol 3.3)
+6667/tcp open  irc        UnrealIRCd
+MAC Address: 08:00:27:B7:83:47 (Oracle VirtualBox virtual NIC)
+Service Info: Host: irc.Metasploitable.LAN; OSs: Linux, Unix; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov 17 02:39:32 2026 -- 1 IP address (1 host up) scanned in 7.96 seconds

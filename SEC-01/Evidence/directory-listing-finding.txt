@@ -1,0 +1,8 @@
+Finding: Apache Directory Listing Enabled
+Target: 192.168.77.20
+Port: 80/TCP
+Affected paths: /doc/ and /icons/
+Evidence: Both paths return directory index pages containing file and directory links.
+Impact: Information disclosure through exposed directory contents.
+Severity: Low-Medium, depending on exposed content.
+Recommendation: Disable directory indexing using Apache Options -Indexes and restrict access to sensitive directories.

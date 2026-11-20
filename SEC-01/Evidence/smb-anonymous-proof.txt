@@ -1,0 +1,11 @@
+Anonymous login successful
+  .                                   D        0  Wed Nov 18 06:49:50 2026
+  ..                                 DR        0  Sun May 20 15:36:12 2012
+  4855.jsvc_up                        R        0  Wed Nov 18 06:15:12 2026
+  .ICE-unix                          DH        0  Wed Nov 18 06:13:42 2026
+  orbit-msfadmin                     DR        0  Wed Nov 18 06:25:33 2026
+  .X11-unix                          DH        0  Wed Nov 18 06:14:42 2026
+  .X0-lock                           HR       11  Wed Nov 18 06:14:42 2026
+  gconfd-msfadmin                    DR        0  Wed Nov 18 06:25:33 2026
+
+		7282168 blocks of size 1024. 5436368 blocks available

@@ -1,0 +1,11 @@
+FTP Anonymous Access Verification
+Target: 192.168.77.20
+Port: 21/TCP
+Service: vsFTPd 2.3.4
+Username: anonymous
+Password: Blank
+Server response: 230 Login successful.
+Remote system type: UNIX
+Result: Anonymous FTP authentication succeeded without credentials.
+Impact: Allows unauthenticated users to access the FTP service.
+Severity: Low-Medium (access confirmed; directory contents were not captured in this verification).
